@@ -1,0 +1,21 @@
+h1 h2 a {
+  font-family: "Cormorant Garamond";
+  display: flex;
+  justify-content: center;
+  color: #504f4e;
+}
+
+body {
+  background-image: url(../Images/peque.jpg);
+}
+
+a {
+  margin-bottom: 10px;
+}
+
+.container {
+  background-color: white;
+  border: #504f4e solid;
+}
+
+/*# sourceMappingURL=error.css.map */

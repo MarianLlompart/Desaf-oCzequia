@@ -1,0 +1,45 @@
+
+/*Section 3*/ 
+
+.About-us {
+    height: 80vh;
+}
+
+h3 {
+    color: nth($colors, 3);
+    font-family: $font;
+    font-size: 27px;
+    font-weight: $font_w;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-top: 100px;
+    margin-bottom: $mb;
+    margin-left: $ml;
+}
+
+/*Características párrafos*/
+
+p {
+    color: nth($colors, 4);
+    font-family: $font;
+    font-size: 1rem;
+    font-weight: $font_w;
+    font-style: italic;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-align: center;
+    word-spacing: 2px;
+    margin-top: $mt-;
+    margin-bottom: $mb-;
+}
+
+/*Tamaño mapita*/
+
+.GoogleMaps {
+    width: 250px;
+    height: 250px;
+    margin-top: $mt-;
+    margin-bottom: $mb;
+    margin-left: $ml;
+}
+/*Fin Section 3*/ 

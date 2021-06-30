@@ -1,0 +1,19 @@
+%WH {
+    width: 15%;
+    height: 15%;  
+}
+
+%Flexbox {
+    margin: $margin;
+    border-style: $bs;
+    border-right-color: nth($colors, 1);
+    border-bottom-color: nth($colors, 1);
+    transition: $trans;
+}
+
+%error {
+    font-family: "Cormorant Garamond";
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 79, 78);
+}

@@ -1,0 +1,40 @@
+/*Mobile*/
+
+@media (max-width: 400px) {
+    .bodyGrid {
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-areas: 
+        "header"
+        "home"
+        "aboutUs"
+        "ProductosFotos"
+        "envios"
+        "footer";
+        justify-content: stretch;
+        align-content: stretch;
+    }
+
+    
+.header {
+    grid-area: header;
+}
+
+.home {
+    grid-area: home;
+}
+
+.aboutUs {
+    grid-area: aboutUs;
+}
+
+.envios {
+    grid-area: envios;
+}
+
+.ProductosFotos {
+    grid-area: ProductosFotos;
+}
+
+}
+/*Fin Mobile*/

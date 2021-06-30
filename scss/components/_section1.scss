@@ -1,0 +1,26 @@
+
+/*Section 1*/ 
+
+h1 {
+    display: block;
+}
+
+.div-1 {
+    display: $df;
+    width: 100%;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: $align_items;
+    background-color: nth($colors, 1);
+    .LogoHome {
+        @extend %WH
+    }
+}
+
+.carousel {
+    margin-top: $mt-;
+    display: $df;
+    justify-content: $jcontent;
+}
+
+/*Fin Section 1*/ 

@@ -1,0 +1,16 @@
+body {
+    background-image: url(././images/peque.jpg);
+}
+
+h1 h2 a {
+    @extend %error;
+}
+
+a {
+    margin-bottom: $mb-;
+}
+
+.container {
+    background-color: white;
+    border:rgb(80, 79, 78) solid;
+}
