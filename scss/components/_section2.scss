@@ -54,19 +54,19 @@ h2 {
     
     .Pj-3 {
         @extend %Flexbox;
-        width: $wd-70;
+        width: $wd-60;
     
         &:hover {
-            width: $wd-80;
+            width: $wd-70;
         }
     }
     
     .Pj-4 {
         @extend %Flexbox;
-        width: $wd-80;
+        width: $wd-60;
     
         &:hover {
-            width: $wd-90;
+            width: $wd-70;
         }
     }
     
@@ -81,10 +81,10 @@ h2 {
     
     .Pj-6 {
         @extend %Flexbox;
-        width: $wd-50;
+        width: $wd-60;
     
         &:hover {
-            width: $wd-60;
+            width: $wd-70;
         }
     }
     
