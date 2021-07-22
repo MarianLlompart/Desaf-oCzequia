@@ -29,17 +29,14 @@ footer {
     animation-duration: $anim-d;
     animation-name: $anim-n;
     animation-timing-function: $a-t-f;
-    border-bottom:  map-get($Redes , border-bottom);
 } 
 
 .LogoFacebook {
         width: 50px;
-        background-color: map-get($Redes , facebook);
 }
     
 .LogoInstagram {
         width: 49px;
-        background-color: map-get($Redes, instagram);
 }
 
 /*Animación logo fb e ig*/

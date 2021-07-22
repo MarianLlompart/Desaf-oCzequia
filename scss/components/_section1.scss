@@ -24,4 +24,14 @@ h1 {
     align-items: $align_items;
 }
 
+.carousel-inner{
+    height:80vh;
+  }
+.carousel-item.active { 
+    display:flex;
+    justify-content: center;
+  }
+
+
+
 /*Fin Section 1*/ 

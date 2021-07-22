@@ -34,8 +34,16 @@ p {
 }
 
 
-.section3eu {
-    justify-content: center;
+.env {
+    display: $df;
+    flex-direction: $f-d-c;
+    align-items: $align_items;
+}
+
+.ubc {
+    display: $df;
+    flex-direction: $f-d-c;
+    align-items: $align_items;
 }
 
 /*Tamaño mapita*/

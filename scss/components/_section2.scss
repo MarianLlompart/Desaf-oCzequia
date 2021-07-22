@@ -18,12 +18,16 @@ h2 {
     font-size: $font_s;
 }
 
+
 .column {
     display: $df;
     flex-direction: $f-d-c;
     align-items: $align_items;
 }
 
+.card {
+    width: 18rem;
+}
 .row {
     display: $df;
     flex-direction: $f-d-r;
@@ -64,7 +68,7 @@ h2 {
     .Pj-4 {
         @extend %Flexbox;
         width: $wd-60;
-    
+        
         &:hover {
             width: $wd-70;
         }
