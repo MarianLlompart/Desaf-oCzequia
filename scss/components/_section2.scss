@@ -27,6 +27,7 @@ h2 {
 
 .card {
     width: 18rem;
+    align-items: $align_items;
 }
 .row {
     display: $df;
@@ -43,7 +44,7 @@ h2 {
         width: $wd-60;
     
         &:hover {
-            width: $wd-70;
+            transform: scale(1.1);
         }
     }
     
@@ -52,7 +53,7 @@ h2 {
         width: $wd-60;
     
         &:hover {
-            width: $wd-70;
+            transform: scale(1.1);
         }
     }
     
@@ -61,7 +62,7 @@ h2 {
         width: $wd-60;
     
         &:hover {
-            width: $wd-70;
+            transform: scale(1.1);
         }
     }
     
@@ -70,7 +71,7 @@ h2 {
         width: $wd-60;
         
         &:hover {
-            width: $wd-70;
+            transform: scale(1.1);
         }
     }
     
@@ -79,7 +80,7 @@ h2 {
         width: $wd-60;
     
         &:hover {
-            width: $wd-70;
+            transform: scale(1.1);
         }
     }
     
@@ -88,7 +89,7 @@ h2 {
         width: $wd-60;
     
         &:hover {
-            width: $wd-70;
+            transform: scale(1.1);
         }
     }
     

@@ -89,6 +89,7 @@ h2 {
 
 .card {
   width: 18rem;
+  align-items: center;
 }
 
 .row {
@@ -104,37 +105,37 @@ h2 {
   width: 60%;
 }
 .row .Pj-1:hover {
-  width: 70%;
+  transform: scale(1.1);
 }
 .row .Pj-2 {
   width: 60%;
 }
 .row .Pj-2:hover {
-  width: 70%;
+  transform: scale(1.1);
 }
 .row .Pj-3 {
   width: 60%;
 }
 .row .Pj-3:hover {
-  width: 70%;
+  transform: scale(1.1);
 }
 .row .Pj-4 {
   width: 60%;
 }
 .row .Pj-4:hover {
-  width: 70%;
+  transform: scale(1.1);
 }
 .row .Pj-5 {
   width: 60%;
 }
 .row .Pj-5:hover {
-  width: 70%;
+  transform: scale(1.1);
 }
 .row .Pj-6 {
   width: 60%;
 }
 .row .Pj-6:hover {
-  width: 70%;
+  transform: scale(1.1);
 }
 .row .btn {
   background-color: black;
