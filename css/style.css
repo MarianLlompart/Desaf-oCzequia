@@ -147,10 +147,6 @@ h2 {
 
 /*Fin Section 2*/
 /*Section 3*/
-.About-us {
-  height: 80vh;
-}
-
 h3 {
   color: #010e0e;
   font-family: "Cormorant Garamond";
@@ -283,6 +279,10 @@ footer .lineFooter {
 
   .footer {
     grid-area: footer;
+  }
+
+  .About-us {
+    height: auto;
   }
 }
 /*Fin Mobile*/
