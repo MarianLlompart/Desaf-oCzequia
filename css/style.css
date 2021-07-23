@@ -4,7 +4,7 @@
   height: 15%;
 }
 
-.row .Pj-6, .row .Pj-5, .row .Pj-4, .row .Pj-3, .row .Pj-2, .row .Pj-1 {
+.row .pj-6, .row .pj-5, .row .pj-4, .row .pj-3, .row .pj-2, .row .pj-1 {
   margin: 30px 10px 30px 10px;
   border-style: outset;
   border-right-color: black;
@@ -101,40 +101,40 @@ h2 {
   font-family: "Cormorant Garamond";
   text-decoration: none;
 }
-.row .Pj-1 {
+.row .pj-1 {
   width: 60%;
 }
-.row .Pj-1:hover {
+.row .pj-1:hover {
   transform: scale(1.1);
 }
-.row .Pj-2 {
+.row .pj-2 {
   width: 60%;
 }
-.row .Pj-2:hover {
+.row .pj-2:hover {
   transform: scale(1.1);
 }
-.row .Pj-3 {
+.row .pj-3 {
   width: 60%;
 }
-.row .Pj-3:hover {
+.row .pj-3:hover {
   transform: scale(1.1);
 }
-.row .Pj-4 {
+.row .pj-4 {
   width: 60%;
 }
-.row .Pj-4:hover {
+.row .pj-4:hover {
   transform: scale(1.1);
 }
-.row .Pj-5 {
+.row .pj-5 {
   width: 60%;
 }
-.row .Pj-5:hover {
+.row .pj-5:hover {
   transform: scale(1.1);
 }
-.row .Pj-6 {
+.row .pj-6 {
   width: 60%;
 }
-.row .Pj-6:hover {
+.row .pj-6:hover {
   transform: scale(1.1);
 }
 .row .btn {
@@ -279,6 +279,10 @@ footer .lineFooter {
 
   .ProductosFotos {
     grid-area: ProductosFotos;
+  }
+
+  .footer {
+    grid-area: footer;
   }
 }
 /*Fin Mobile*/
